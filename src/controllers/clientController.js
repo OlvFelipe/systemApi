@@ -1,4 +1,4 @@
-const conn = require('../connection/connetion');
+const conn = require('../database/connection');
 
 class ClientController {
 

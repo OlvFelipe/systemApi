@@ -39,7 +39,7 @@ class ClientController {
             })
         })
         .catch((err) => {
-            res.send({
+            res.status(err).send({
                 err,
                 msg: 'Erro ao cadastrar cliente'
             })

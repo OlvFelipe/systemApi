@@ -6,7 +6,7 @@ const ItemController = require('../controllers/itemController');
 
 router.get('/clientes', ClientController.all);
 router.get('/cliente', ClientController.clientByID);
-router.post('/cliente', ClientController.createClient);
+router.post('/cadastrar-cliente', ClientController.createClient);
 router.put('/atualizar-cliente', ClientController.updateClient);
 
 router.get('/itens', ItemController.all);
